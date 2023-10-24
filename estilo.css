@@ -1,0 +1,93 @@
+#home {
+    background-color: #fff0ff; /* Azul Petróleo */
+    color: black; /* Cor do texto para melhor contraste */
+    padding: 40px 0; /* Adicione preenchimento superior e inferior para melhor espaçamento */
+}
+
+
+.caixa{
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+footer p a{
+	margin: 5px 15px;
+}
+
+.navbar{
+	background-color: #967BB6;
+}
+/* Cor principal Lavanda */
+:root {
+    --main-color: #967BB6; /* Lavanda */
+}
+
+/* Cor Azul Petróleo para animações */
+.header-icons i {
+    color: #fff0ff; /* Azul Petróleo */
+}
+
+.header-icons i:hover {
+    color: #967BB6; /* Lavanda ao passar o mouse nas animações */
+}
+
+/* Cor Azul Petróleo para o botão "Entrar" na barra de navegação */
+.navbar .btn {
+    background-color: #fff0ff; /* Azul Petróleo */
+    color: black; /* Cor do texto no botão branco */
+}
+
+.navbar .btn:hover {
+    background-color: #967BB6; /* Lavanda ao passar o mouse no botão "Entrar" */
+    color: black; /* Cor do texto no botão branco */
+}
+
+/* Cor Azul Petróleo para o botão "Veja mais" nas seções */
+.btn.btn-warning {
+    background-color: #084d6e; /* Azul Petróleo */
+    color: black; /* Cor do texto no botão branco */;
+}
+
+.btn.btn-warning:hover {
+    background-color: #967BB6; /* Lavanda ao passar o mouse no botão "Veja mais" */
+    color: black; /* Cor do texto no botão branco */
+}
+
+.video-container{
+	display: flexbox;
+	align-items: right;
+	padding-left: 110px;
+	margin-top: 15px;
+	max-width: 300;
+}
+.video-container iframe {
+    border-radius: 20px; /* O valor da borda arredondada que você deseja para o vídeo */
+    overflow: hidden;
+}
+.form-control{
+	display: none;
+}
+.icone a {
+	background-color: #967BB6;
+}
+
+.icone a:hover i {
+	transform: scale(1.2);
+	transition: transform 0.3s ease;
+
+  }
+
+
+footer{
+    align-items: center;
+    
+}
+
+.caixa{
+    background-color:#fff0ff;
+}
+
+.mt-4 mb-4{
+    justify-content: center;
+    align-items: center;
+}
